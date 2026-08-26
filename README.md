@@ -319,6 +319,8 @@ This repo ships an [AGENTS.md](AGENTS.md) execution playbook. Cursor, Claude Cod
 
 ## Other RoxyAPI samples
 
+[![BaZi API](https://img.shields.io/badge/BaZi_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/bazi-api)
+[![Chinese Almanac API](https://img.shields.io/badge/Chinese_Almanac_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/chinese-almanac-api)
 [![Human Design API](https://img.shields.io/badge/Human_Design_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/human-design-api)
 [![Transit Forecast API](https://img.shields.io/badge/Transit_Forecast_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/transit-forecast-api)
 [![Moon Phase API](https://img.shields.io/badge/Moon_Phase_API-RoxyAPI-14b8a6?style=flat-square)](https://github.com/RoxyAPI/moon-phase-api)
