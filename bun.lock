@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "chinese-lunar-calendar-api",
+      "dependencies": {
+        "@roxyapi/sdk": "^1.2.70",
+      },
+    },
+  },
+  "packages": {
+    "@roxyapi/sdk": ["@roxyapi/sdk@1.2.70", "", {}, "sha512-ixenSvQhOCP/5NTEdxShrfKgPLz1IY+MBpoZCKa9sRlrMsFFKIvh/FxYM/Y89u4lNQnPsbfRmh0F6nYb5+yAHg=="],
+  }
+}
