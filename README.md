@@ -2,7 +2,7 @@
 
 # Chinese Lunar Calendar API
 
-> Chinese lunar calendar API and lunar date converter that runs both ways. Send a Gregorian date to get the lunisolar date, or send a lunar year, month and day to get the Gregorian date back. Leap months are returned explicitly, the 24 solar terms come back as exact instants, and the calendar is evaluated at a fixed reference meridian so a lunar date is the same worldwide. One key covers 14+ spiritual domains. MCP-first.
+> Chinese lunar calendar API and lunar date converter that runs both ways. Send a Gregorian date to get the lunisolar date, or send a lunar year, month and day to get the Gregorian date back. Leap months are returned explicitly, the 24 solar terms come back as exact instants, and the calendar is evaluated at a fixed reference meridian so a lunar date is the same worldwide. One key covers 18+ spiritual domains. MCP-first.
 
 [![Get API Key](https://img.shields.io/badge/Get_API_Key-RoxyAPI-14b8a6?style=for-the-badge&logo=key&logoColor=white)](https://roxyapi.com/pricing)
 [![Try Live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
@@ -12,7 +12,7 @@
 
 ## What is Chinese Lunar Calendar API
 
-The Chinese calendar is lunisolar: months follow the moon, the year is kept in step with the sun by inserting a thirteenth month when it drifts. This repo ships working TypeScript, JavaScript, and Python samples against the RoxyAPI lunar date endpoint, which is a lunar date converter in both directions through one call. Pass `date` to go Gregorian to lunar. Pass `lunarYear`, `lunarMonth` and `lunarDay` to go lunar to Gregorian. Either way the response reports the length of the lunar month, whether the date sits in a leap month, which month the year doubles if any, and the reference meridian the lunisolar calendar was evaluated at. A companion endpoint returns the 24 solar terms of a solar year as exact astronomical instants. One subscription unlocks 14+ spiritual domains: Western astrology, Vedic astrology, Forecast, Human Design, Chinese astrology, Feng Shui, numerology, tarot, biorhythm, I Ching, crystals, dreams, angel numbers, and location.
+The Chinese calendar is lunisolar: months follow the moon, the year is kept in step with the sun by inserting a thirteenth month when it drifts. This repo ships working TypeScript, JavaScript, and Python samples against the RoxyAPI lunar date endpoint, which is a lunar date converter in both directions through one call. Pass `date` to go Gregorian to lunar. Pass `lunarYear`, `lunarMonth` and `lunarDay` to go lunar to Gregorian. Either way the response reports the length of the lunar month, whether the date sits in a leap month, which month the year doubles if any, and the reference meridian the lunisolar calendar was evaluated at. A companion endpoint returns the 24 solar terms of a solar year as exact astronomical instants. One subscription unlocks 18+ spiritual domains: Western astrology, Vedic astrology, Forecast, Human Design, Chinese astrology, Feng Shui, Mesoamerican astrology, Vastu, numerology, Kabbalah, tarot, biorhythm, Ayurveda, I Ching, crystals, dreams, angel numbers, and location.
 
 ## Why call an API for a lunar date converter
 
@@ -30,7 +30,7 @@ A lunisolar date reads like arithmetic until the edge cases arrive. Four propert
 
 | Property | Value |
 |----------|-------|
-| Coverage | 14+ spiritual domains in one subscription |
+| Coverage | 18+ spiritual domains in one subscription |
 | Directions | Gregorian to lunar and lunar to Gregorian, one endpoint |
 | Leap months | Addressed explicitly through `isLeapMonth`, reported through `leapMonthOfYear` |
 | Reference frame | Fixed UTC+8 meridian, published on every response as `referenceOffset` |
