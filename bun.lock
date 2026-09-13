@@ -5,11 +5,11 @@
     "": {
       "name": "chinese-lunar-calendar-api",
       "dependencies": {
-        "@roxyapi/sdk": "^1.2.70",
+        "@roxyapi/sdk": "^1.2.80",
       },
     },
   },
   "packages": {
-    "@roxyapi/sdk": ["@roxyapi/sdk@1.2.70", "", {}, "sha512-ixenSvQhOCP/5NTEdxShrfKgPLz1IY+MBpoZCKa9sRlrMsFFKIvh/FxYM/Y89u4lNQnPsbfRmh0F6nYb5+yAHg=="],
+    "@roxyapi/sdk": ["@roxyapi/sdk@1.2.80", "", {}, "sha512-qVoE8bGLC5vDgBT7fvSMLm+G/o7a9t4ey9FDzpRPhc+5fr+r/MQXrbLDJkqTJD8JD5ZuqrQhG9MmRk9o5ZayPQ=="],
   }
 }

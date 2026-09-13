@@ -6,7 +6,7 @@
   "description": "Chinese lunar calendar API. Convert Gregorian to lunar and lunar to Gregorian, with leap months and the 24 solar terms.",
   "license": "MIT",
   "dependencies": {
-    "@roxyapi/sdk": "^1.2.70"
+    "@roxyapi/sdk": "^1.2.80"
   },
   "scripts": {
     "ts": "bun example.ts",
